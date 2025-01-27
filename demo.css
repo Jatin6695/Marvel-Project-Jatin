@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    background-color: #00246B;
+    color: #cadcfc;
+    text-decoration: none;
+    
+}
+
+
+.logo{
+   margin-top: 10px;
+   margin-left: 60px;
+   font-style: oblique;
+   text-decoration: none;
+}
+.logo span{
+    color: #7a2048;
+}
+
+.top li{
+    list-style: none; 
+    margin: 20px;
+}
+.top ul li a{
+    text-decoration: none;
+    font-size: large;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: #00246B;
+    color: #cadcfc;
+}
+
+.top li a:hover {
+    color: orange;
+}
+
+.top ul{
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.search{
+    padding: 20px 30px;
+}
+
+.search input{
+    height: 25px;
+    width: 200px;
+    outline: none;
+    border: none;
+    
+}
+
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-top: 8px;
+    color: #cadcfc;
+    background-color: #00246B;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn:hover{
+    background-color: #7a2048;
+    
+}
+
+.banner{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-img{
+    margin-left: 400px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.img{
+    margin-left: 10px;
+} 
+
+.main-img1{
+    margin-left: 400px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.banner{
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+}
+
+.book{
+    display: flex;
+}
+
+.item{
+    margin-left: 150px;
+    margin-top: 30px;
+    font-family: Arial;
+}
+
+
+.about{
+    margin-left: 20px;
+}
+
+.popular{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.add{
+    text-align: center;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #333;
+    height: 100px;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer- li {
+    margin: 0 20px;
+}
+
+.footer-li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+.footer-container p{
+    margin-top: 80px;
+}
+
+.footer-li a:hover {
+    color: #f39c12;
+}
